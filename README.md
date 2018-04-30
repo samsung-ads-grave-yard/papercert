@@ -18,6 +18,31 @@ sudo yum install -y dmtx-utils ImageMagick
 ./papercert.sh key.pem cert.pem
 ```
 
+## Restoring the certificates
+
+This was tested with a [Motorola/Symbol
+DS4208](https://www.zebra.com/gb/en/products/scanners/general-purpose-scanners/handheld/ds4208.html)
+scanner.
+
+Disabling the the suffix setting that outputs CR,LF is pretty handy. Also when
+scanning, try to aim for the lower left corner of the codes, and the targeting
+dot should be roughly a of one of the squares.
+
+```plaintext
+|----|----|
+|    |    |
+|    |    |
+|----|----|
+|    |    |
+|O   |    |  <- Try and aim about here
+|----|----|
+```
+
+Some modern text editors seem unhappy about cursor position. For example Visual
+Studio code improperly line feeds, even with line feed disabled on the scanner.
+
+Vim seems to work just fine.
+
 ## Contributing
 
 1. Fork it!
