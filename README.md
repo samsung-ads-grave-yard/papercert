@@ -1,3 +1,5 @@
+![cert-n-coffee](.eyecandy/cert-n-coffee.jpg)
+
 # papercert
 
 Script that dumps a key and certificate to a PDF for printing.
