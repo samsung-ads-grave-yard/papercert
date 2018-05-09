@@ -184,3 +184,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/linux,osx,windows,atom,sublimetext,emacs,vim,visualstudiocode
+*.pdf
+*.png
+raw_csr/
+raw_png/

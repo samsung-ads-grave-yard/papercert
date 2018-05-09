@@ -8,9 +8,13 @@ script for dumping CSRs to paper.
 ## Installation
 
 ```shell
-# For CentOS/RHEL/Fedora
 git clone ${THIS_REPO}
+
+# For CentOS/RHEL/Fedora
 sudo yum install -y dmtx-utils ImageMagick
+
+# For Ubuntu(s)
+sudo apt install dmtx-utils imagemagick
 ```
 
 ## Usage
