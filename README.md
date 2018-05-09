@@ -2,7 +2,8 @@
 
 # papercert
 
-Script that dumps a key and certificate to a PDF for printing.
+Script that dumps a key and certificate to a PDF for printing. Also provdes a
+script for dumping CSRs to paper.
 
 ## Installation
 
@@ -16,6 +17,13 @@ sudo yum install -y dmtx-utils ImageMagick
 
 ```shell
 ./papercert.sh key.pem cert.pem
+xdg-open combined.pdf
+```
+
+```shell
+./papercsr.sh domain.com.csr
+xdg-open <CN>-combined.pdf
+# Don't forget to print two-sided and save 50% the trees!
 ```
 
 ## Restoring the certificates
