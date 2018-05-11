@@ -32,9 +32,13 @@ xdg-open <CN>-combined.pdf
 
 ## Restoring the certificates
 
-This was tested with a [Motorola/Symbol
-DS4208](https://www.zebra.com/gb/en/products/scanners/general-purpose-scanners/handheld/ds4208.html)
-scanner.
+This was tested with the following scanners :
+
+#### Motorola/Symbol
+- [DS4208](https://www.zebra.com/gb/en/products/scanners/general-purpose-scanners/handheld/ds4208.html)
+- [DS6702-SR](https://www.zebra.com/us/en/products/scanners/general-purpose-scanners/handheld/ds6700.html)
+
+#### Scanning tips
 
 Disabling the the suffix setting that outputs CR,LF is pretty handy. Also when
 scanning, try to aim for the lower left corner of the codes, and the targeting
