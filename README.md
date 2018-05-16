@@ -37,6 +37,8 @@ This was tested with the following scanners :
 #### Motorola/Symbol
 - [DS4208](https://www.zebra.com/gb/en/products/scanners/general-purpose-scanners/handheld/ds4208.html)
 - [DS6702-SR](https://www.zebra.com/us/en/products/scanners/general-purpose-scanners/handheld/ds6700.html)
+  - [Recommended settings](scanner_settings/README.md)
+  - [User manual](https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/barcode-scanners/ds6707-digital-imager-scanner-product-reference-guide-en-us.pdf)
 
 #### Scanning tips
 
