@@ -3,7 +3,7 @@
 # papercert
 
 Script that dumps a key and certificate to a PDF for printing. Also provdes a
-script for dumping CSRs to paper.
+script for dumping GPG keys and CSRs to paper.
 
 ## Installation
 
@@ -28,6 +28,11 @@ xdg-open combined.pdf
 ./papercsr.sh domain.com.csr
 xdg-open <CN>-combined.pdf
 # Don't forget to print two-sided and save 50% the trees!
+```
+
+```shell
+./papergpg.sh id.asc id.pub.asc
+xdg-open combined.pdf
 ```
 
 ## Restoring the certificates
